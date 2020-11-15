@@ -1,0 +1,13 @@
+In the earlier commit you changed 10 files. So the commit would show 10 files and their differences. But in amend you had to change 
+1 out of the above 10 files changed previously. So my question was how is difference caculated now with the previous version.
+
+During amend : 9 files remained the same and 1 changed. So the difference of 9 files remained the same as it was previously.
+And the difference of 1 modified file is caculated again.
+
+1  2  3
+
+Initially commit 1 m 10 files changed : difference 2 - 1
+Amend .. 1 out of above 10 files : Version 1 would be deleted when we commit.
+My doubt was how is difference calculated then. 
+
+
