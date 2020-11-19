@@ -10,4 +10,10 @@ Initially commit 1 m 10 files changed : difference 2 - 1
 Amend .. 1 out of above 10 files : Version 1 would be deleted when we commit.
 My doubt was how is difference calculated then. 
 
+To unstage a staged file, the command git restore -- <filename> staged (to unstage) and git restore <filename> (to discard changes which 
+is overwriting with the last commited version of the file>
+A similar command could exist to bring back one version of the file of an older as well.(?)
 
+ssh url doesn't require credentials whereas http url requires credentials.
+
+Adding remote : Remote to a particular repository to any other repository (central or any other user) could be made. This basically helps you to create a alias to a large and complicated url so that you can pull and do other functionalities which involve url very easily.
