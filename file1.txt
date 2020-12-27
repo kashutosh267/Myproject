@@ -1,1 +1,2 @@
 This comes from myproject2.
+Today is Sunday.
